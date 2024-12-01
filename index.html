@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="todo__title">Todo List</h1>
+    <div >
+      <select id="listDropdown" class="listDropdown">
+        <option value="" disabled selected>Select a list</option>
+      </select>
+      <button id="addListButton" class="todo__button">Add List</button>
+      <button id="deleteListButton" class="todo__button">Delete List</button>
+    </div>
+    <div>
+      <input type="text" id="taskInput" placeholder="Enter a task">
+      <button id="addTaskButton" class="todo__button">Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
