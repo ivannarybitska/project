@@ -160,3 +160,28 @@ body {
   padding: 10px;
   border-radius: 15px;
 }
+
+.list_dropdown{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+  }
+
+@media (max-width: 600px) {
+    .list_dropdown{
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+    }
+    
+    #taskList li {
+        column-gap: 10px;
+        font-size: 15px;
+        max-width: 300px;
+      }
+
+      button {
+        font-size: 15px;
+        max-width: 200px;
+    }
+  }

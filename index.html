@@ -14,14 +14,16 @@
 <body>
   <div class="container">
     <h1 class="todo__title">Todo List</h1>
-    <div >
+    <div class="list_dropdown">
       <select id="listDropdown" class="listDropdown">
         <option value="" disabled selected>Select a list</option>
       </select>
-      <button id="addListButton" class="todo__button">Add List</button>
-      <button id="deleteListButton" class="todo__button">Delete List</button>
+      <div>
+        <button id="addListButton" class="todo__button">Add List</button>
+        <button id="deleteListButton" class="todo__button">Delete List</button>
+      </div>
     </div>
-    <div>
+    <div class="list_dropdown">
       <input type="text" id="taskInput" placeholder="Enter a task">
       <button id="addTaskButton" class="todo__button">Add Task</button>
     </div>
